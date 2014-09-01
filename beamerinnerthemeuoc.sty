@@ -20,9 +20,9 @@
 	\begin{tikzpicture}
 	\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
 	\usebeamercolor{title page header};
-	\node[anchor=south west,color=fg] at (0,4.0) {\usebeamerfont{title}\textbf{\inserttitle}};
+	\node[anchor=south west,color=fg,text width=\the\paperwidth-40pt] at (0,4.0) {\usebeamerfont{title}\textbf{\inserttitle}};
 	\usebeamercolor{subtitle page header};
-	\node[anchor=south west,color=fg] at (0,3.6) {\usebeamerfont{subtitle}\insertsubtitle};	
+	\node[anchor=south west,color=fg,text width=\the\paperwidth-40pt] at (0,3.6) {\usebeamerfont{subtitle}\insertsubtitle};	
 	\usebeamercolor{author};
 	\node[anchor=north west,color=fg] at (0,2.8) {\usebeamerfont{author}\footnotesize\textbf{\insertauthor}};
 	\usebeamercolor{institute};
